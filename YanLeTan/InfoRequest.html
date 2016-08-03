@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title></title>    
+    <link href="css/mui.min.css" rel="stylesheet"/>   
+    <link rel="stylesheet" type="text/css" href="css/mui.picker.css"/>
+    <link rel="stylesheet" type="text/css" href="css/mui.poppicker.css"/>
+    <link rel="stylesheet" type="text/css" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/login-reg-forget.css/InfoRequset.css"/>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	    <h1 class="mui-title">个人信息</h1>
+	</header>
+	<div id="showEdit">
+	        <header class="mui-bar mui-bar-nav mui-nav-bg" >
+	            <a class=" mui-icon mui-icon-closeempty mui-pull-left"  onclick="closeEdit();"></a>
+	            <a class=" mui-icon mui-icon-checkmarkempty mui-pull-right"  onclick="confirm();"></a>
+	        </header>
+	        <div id="report"></div>
+	</div>
+	<div class="mui-content">
+			<ul class="ul_li">
+				<li class="mui-table-view-cell">				
+					<a id="MinePhoto" >					
+						<p class="li_p">头像</p>
+						<p class="li_p">请上传您本人图像清晰彩色正面照片</p>
+						<div class='li_img'><img id="userimg" src="img/iconfont-ren-@3x_3.png" alt="" /></div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell">				
+					<a class="mui-navigate-right li_text" id="MineName">					
+						<p class="li_p">真实姓名 <input id="MineNameval" placeholder="请设置真实姓名必须与证书上一致"></input></p>
+					</a>
+				</li>
+				<li class="mui-table-view-cell">				
+					<a class="mui-navigate-right " id="MinenAddress">					
+						<p class="li_p">省-市-区<span id="MinenAddressval" class="span_right">请设置</span><span class="mui-icon mui-icon-arrowright"></span></p>
+					</a>
+				</li>
+				<li class="mui-table-view-cell">				
+					<a class="mui-navigate-right " id="MineHospital">					
+						<p class="li_p">所在医院<span class="span_right" id="MineHospitalval">请设置</span><span class="mui-icon mui-icon-arrowright"></span></p>
+					</a>
+				</li>
+				<li class="mui-table-view-cell">				
+					<a class="mui-navigate-right" id="MineWorkAddress">					
+						<p class="li_p">所在科室<span class="span_right" id="MineWorkAddressval">请设置</span><span class="mui-icon mui-icon-arrowright"></span></p>
+					</a>
+				</li>
+				<li class="mui-table-view-cell">				
+					<a class="mui-navigate-right li_text" id="MineWork">					
+						<p class="li_p">职务职称<span class="span_right" id="MineWorkval">请设置</span><span class="mui-icon mui-icon-arrowright"></span></p>
+					</a>
+				</li>
+				
+				<li class="mui-table-view-cell">				
+					<a class="mui-navigate-right li_text" id="MinePersonal">					
+						<p class="li_p">擅长疾病<span class="span_right" id="MinePersonalval">请设置</span>
+							<span class="mui-icon mui-icon-arrowright"></span></p>
+					</a>
+				</li>
+	
+			</ul>
+			<div class="login_btn">
+			<button class="mui-btn mui-btn-block" type="button">提交认证</button>
+			</div>
+		</div>
+		<div id="popover" class="mui-popover mui-popover-action mui-popover-bottom">
+			<ul class="mui-table-view">
+				<li onclick="getImage()" class="mui-table-view-cell">
+					<a href="#">拍照</a>
+				</li>
+				<li onclick="appendByGallery()" class="mui-table-view-cell">
+					<a href="#">从相册中选择图片</a>
+				</li>
+			</ul>
+			<ul class="mui-table-view">
+				<li class="mui-table-view-cell">
+					<a href="#popover"><b>取消</b></a>
+				</li>
+			</ul>
+		</div>
+	<div id='cityResult3' class="ui-alert"></div>
+	<script src="js/common/mui.min.js"></script>
+	<script src="js/common/binaryajax.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/common/exif.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/common/canvasResize.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/common/mui.picker.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/common/mui.poppicker.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/common/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/Mine/changeIme.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/login-reg-forget/InfoRequest.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

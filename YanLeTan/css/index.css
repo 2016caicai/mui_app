@@ -1,0 +1,17 @@
+.mui-tab-item>.mui-tab-label{
+    		color:darkgray;
+    		
+    	}
+    	.mui-tab-item>.mui-tab-img{
+    		margin: 0 auto;
+    		width: 2.5rem;
+    		height: 2.1rem;
+    	}
+    	.mui-tab-item>.mui-tab-img>img{
+    		width: 2.5rem;
+    		height: 2.1rem;
+    	}
+    	.mui-bar-tab .mui-tab-item.mui-active .mui-tab-label
+		{
+    		color: rgb(202,176,117);
+		}

@@ -1,0 +1,26 @@
+.mui-control-item{
+    		font-size: 1.5rem;
+    		display: inline-block;
+    		line-height: 4.5rem;
+    		height: 4.5rem;
+    		padding-left: 2.4rem;
+    		padding-right: 2.4rem;
+    	}
+    	#Chat .mui-control-item.mui-active{
+    		border-bottom:3px solid red;
+    		color: red;
+    		font-weight: 700;
+    	}
+    	.orderUl .mui-navigate-right{
+    		text-align: left;
+    		background: #FFFFFF;
+    	}
+    	.chatdetialcontent p,.chatName{
+    		color:#222;
+    	}
+    	.timeDetial,.chatNameDetial{
+    		margin-left: 1rem;
+    	}
+    	.chatdetialbox{background: #FFFFFF;margin: 10px;text-align: left;padding: 10px;}
+		.chatdetialtime{color: darkgray;}
+    	.mui-content{margin-top: 55px;}

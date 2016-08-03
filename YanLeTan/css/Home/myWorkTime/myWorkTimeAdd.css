@@ -1,0 +1,102 @@
+#Sure{
+    		width: 90%;
+			height: 3.8rem;
+			margin-left: 5%;
+			margin-top: 2.2rem;
+			background: rgb(202,176,117);
+			line-height: 1rem;
+			font-size: 1.4rem;
+			height: 3.8rem;
+			color:#FFFFFF;
+			border: none;
+    	}
+    	.WorkTimelI>.WorkTimeA{
+    		background: #FFFFFF;
+    		display: block;
+    		height: 4.7rem;
+    		text-align: left;
+    		margin-top: 0.1rem;
+    		padding-left: 1rem;
+    		line-height: 4.7rem;
+    	}
+    	.mui-table-view-cell>a:not(.mui-btn){
+    		padding: 0;
+    	}
+    	.WorkTimelIAdd{
+    		background: none;
+    		position: absolute;
+    		height: 3rem;
+    		border: 1px solid rgb(202,176,114);
+    		line-height: 1.5rem;
+    		right: 1.2rem;
+    		top: 0.6rem;
+    	}
+    	.WorkTimelI{
+    		position: relative;
+    	}
+    	.WorkTimelI:nth-child(2),.WorkTimelI:nth-child(5){
+    		height: 4.2rem;
+    	}
+    	.li_p>.span_right{
+    		position: absolute;
+    		right: 2.8rem;
+    	}
+    	.mui-slider-handle{
+    		padding-left: 1rem;
+    	}
+    	.TimeBox{
+    		border:1px solid rgb(202,176,114);
+    		display: inline-block;
+    		height: 3.8rem;
+    		border-radius: 5px;
+    		line-height: 3.2rem;
+    		padding: 0.4rem 1.7rem;
+    		margin-top: 0.5rem;
+    		margin-left:1rem;
+    		background: url(../../../img/-2-@2x.png)no-repeat;
+    		background-size:0.8rem 0.8rem;
+    		background-position: 5.5rem 0.2rem;
+    	}
+    	.timeSettingBox{
+    		position:absolute;
+    		display: inline-block;
+    		right: 0.5rem;
+    		width: 28.4rem;
+    		height: 4.7rem;
+    		white-space: nowrap;
+    		overflow-x: auto;
+    		
+    	}
+    	.mui-dtpicker-header{background-color: #fff;}	
+    	.mui-dtpicker-title h5{background-color: #fff;height: 4rem;line-height: 3rem;font-size: 1.6rem;}
+		.mui-switch-blue.mui-active{border:2px solid #00A0E9;background-color: #00A0E9;}
+		.mui-picker-inner{
+			background:  #fff;
+		}
+		.mui-btn-blue{
+			background: rgb(202,176,114);
+			border:none;
+		}
+		.mui-dtpicker-header{
+			position: relative;
+			height: 4rem;
+		}
+		.mui-dtpicker-header>.mui-btn:nth-child(1){
+			position: absolute;
+			left: 0.5rem;
+		}
+		#setPrice{
+			width: 5rem;
+			border:none;
+			text-align: right;
+			padding: 0;
+		}
+		.TimeBoxparent{
+			overflow: hidden;
+		}
+		.spanWork{
+			margin-top: 0.1rem;
+		}
+		.span_right>input{
+			font-size: 1.4rem;
+		}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Chat</title>
+    <link href="../../css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="../../css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/Chat/ChatIndex.css"/>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+			<h1 class="mui-title">消息</h1>
+	</header>
+	<div class="mui-content ">
+	<!--消息-->
+	<div id="Chat" class='' >
+		<a class="mui-control-item mui-active" href="#orderChat">订单消息</a>
+		<a class="mui-control-item" href="#systeamChat">系统消息</a>
+	</div>
+	<div class="Chatbox mui-scroll">
+		<!--订单消息-->
+		<div id="orderChat" class="mui-control-content mui-active ">
+		<ul class="orderUl ">
+			
+		</ul>
+		</div>
+		<!--系统消息-->
+		<div id="systeamChat" class="mui-control-content ">
+			<ul class="orderUl">
+			<li class="mui-table-view-cell">				
+					<a class="mui-navigate-right ChatA"  id='system1'>					
+						<p class="chatName">【养乐堂】<span class="chatNameDetial">您已成功排班，获得100元奖励</span></p><p class="chatTime">2016-04-15<span class="timeDetial">11:00:17</span></p>
+					</a>
+			</li>
+			<li class="mui-table-view-cell">				
+					<a class="mui-navigate-right ChatA"  id='system2'>					
+						<p class="chatName">【养乐堂】<span class="chatNameDetial">您已成功排班，获得200元奖励</span></p><p class="chatTime">2016-04-15<span class="timeDetial">11:00:17</span></p>
+					</a>
+			</li>
+			<li class="mui-table-view-cell">				
+					<a class="mui-navigate-right ChatA"  id='system3'>					
+						<p class="chatName">【养乐堂】<span class="chatNameDetial">您已成功排班，获得300元奖励</span></p><p class="chatTime">2016-04-15<span class="timeDetial">11:00:17</span></p>
+					</a>
+			</li>
+		</ul>
+		</div>
+	</div>
+	</div>
+	<script src="../../js/common/mui.min.js"></script>
+	<script src="../../js/common/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/Chat/ChatIndex.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+
+	.col3 img{
+		width: 8rem;
+		height: 8rem;
+		margin: 2rem 0;
+	}
+.col3,.col3 p{ 
+	text-align: center;
+	color: green; 
+	}
+	.col3 p{
+		margin-top: -20px;
+	}
+	p{
+		text-align: left;
+		
+	}
+.obturateur {
+	border-radius: 50px;
+	stroke-width:5;
+	stroke-miterlimit: 10;
+	}
+	.cardMsseage{
+		background: #F7F7F7;
+		height: 7.2rem;
+	}
+	.cardMsseage>p{
+		margin:0;
+		padding-top: 1rem;
+	}
+	.cardHolder{
+		margin-top: 2rem;
+		background: #F7F7F7;
+	}
+	.cardHolder>li{
+		
+		height: 4.3rem;
+		line-height: 4.3rem;
+		border-bottom:1px solid  rgba(202,176,117,.5);
+		margin-left: 1rem;
+	}
+	.cardHolder>li>p{
+		margin-bottom: 0;
+		color:black;
+		position: relative;
+	}
+	.cardHolder>li>p>span{
+		position: absolute;
+		right: 1.5rem;
+		color:gray;
+	}
+	.cardHolder>li:nth-child(2) p>span{
+		color:red;
+	}
+	.cardTime{
+		margin-top: 1rem;
+		margin-left: 1rem;
+		font-size: 1.2rem;
+		
+	}
+		#OK{
+			width: 92%;
+			height: 3.8rem;
+			margin-left: 4%;
+			margin-top: 2.2rem;
+			background: rgb(202,176,117);
+			line-height: 1rem;
+			font-size: 1.4rem;
+			height: 3.8rem;
+			color:#FFFFFF;
+			border: none;
+		}
+	#Cash{
+		width: 5rem;
+		background: none;
+	}
+	.cardMsseage p{padding-left: 1rem;}
+	.cardMsseage{display: block;}
+	.cardMsseage.hidden{display: none;}
+	.cardMsseage .addcard{line-height: 6.2rem;height: 6.2rem;}
+	.cardMsseage .addcard span{line-height: 6.2rem;}
+	.go-addcard{line-height: 45PX;font-size: 1.4rem;}
+	.addcart-title{padding: 1rem ;margin: 0;}
+	.addcart-li{height:5rem;line-height: 5rem;border-bottom:1px solid  rgba(202,176,117,.5);margin-left: 1rem;}
+	.addcart-li:nth-last-child(1),.cardHolder>li:nth-last-child(1){border:none}
+	.addcart-li p{color: #000000;}
+	.addcart-li.active1 p:after{content: '\2713';font-size: 2rem;color: red;font-weight: 100;line-height: 5rem;float: right;padding-right: 1rem;;}
+	.addcart-ul{background: #FFFFFF;}
+	.addcart-li input{display: inline-block;width: 80%;text-align: right;border:none;font-size: 1.5rem;}
+	.addcart-li span{display: inline-block;width: 20%;text-align: left;font-size: 1.5rem;}
+	#bindcard{width: 92%;height: 3.8rem;margin-left: 4%;margin-top: 2.2rem;background: rgb(202,176,117);line-height: 1rem;font-size: 1.4rem;height: 3.8rem;color:#FFFFFF;border: none;}

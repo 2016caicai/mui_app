@@ -1,0 +1,104 @@
+.ul_li .mui-table-view-cell{
+    		background: rgb(252,249,244);
+    	}
+    	.ul_li .mui-table-view-cell:nth-child(1){
+    		height: 7.8rem;
+    	}
+    	#userimg{
+    		width: 5.8rem;
+			height:5.8rem;
+    	}
+    	.login_btn{
+			width: 92%;
+			height: 3.8rem;
+			margin-left: 4%;
+			margin-top: 2.2rem;
+			
+		}
+		.login_btn>.mui-btn{
+			background: rgb(202,176,117);
+			line-height: 1rem;
+			font-size: 1.4rem;
+			height: 3.8rem;
+			color:#FFFFFF;
+			border: none;
+		}
+		.li_p{
+			color:#222;
+			text-align: left;
+			position: relative;
+		}
+		#MinePhoto{
+			margin-top:0.1rem;
+		}
+		#MinePhoto>p:nth-child(2){
+			color: darkgray;
+			font-size: 1.3rem;
+		}
+		.li_img{
+			position: absolute;			
+			top: 0;
+			right: 1.5rem;
+			width: 5.8rem;
+			height: 5.8rem;
+		}
+		.span_right{
+			color:darkgray;
+			position: absolute;
+			right: 2rem;
+		}
+		.mui-icon-arrowright{
+			position: absolute;
+			right: 0.2rem;
+			color:darkgray;	
+			font-size: 1.3rem;
+			line-height: 2.2rem;		
+		}
+		.li_p:nth-child(1)>.span_right{
+			font-size: 1.3rem;
+			padding: 0;
+		}
+		.mui-table-view-cell>.mui-navigate-right:nth-child(1):after{
+			display: none;
+		}
+		#showEdit{
+			position: absolute;
+			top: 0;
+			height: 100%;
+			width: 100%;
+			background:rgba(12,12,12,.5);
+			z-index: 999;
+			display: none;
+		}
+		.mui-nav-bg{
+			background: none;
+		}
+		#report{
+			height: 100%;
+			margin: 0 auto;
+		}
+		.mui-nav-bg>.mui-icon-closeempty,.mui-nav-bg>.mui-icon-checkmarkempty{
+			color: #FFFFFF;
+			font-size: 2rem!important;
+		}
+		#MineNameval{
+			border:none;
+			width: 21.7rem;
+			height:4.3rem;
+			line-height: 4.3rem;
+			font-size:1.3rem;
+			background:none;
+			text-align: right;
+			position: absolute;
+			right: 0.5rem;
+			top: -1.1rem;
+			padding-right: 0.5rem;
+		}
+		#MinePersonalval{
+			
+			width: 70%;
+			overflow: hidden;
+    		text-overflow: ellipsis;
+    		white-space: nowrap;
+    		text-align: right;
+		}

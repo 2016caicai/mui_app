@@ -1,0 +1,28 @@
+.mui-table-view-cell{
+    		background: rgba(255,255,255,.5);
+    	}
+    	.li_p>span>img{
+    		width: 2.5rem;
+    		height: 2.5rem;
+    		vertical-align: middle;
+    		margin-right: 1rem;
+    	}
+    	.li_p{
+    		text-align: left;
+    		vertical-align: middle;
+    	}
+    	.mui-table-view-cell:nth-child(3),.mui-table-view-cell:nth-child(7),.mui-table-view-cell:nth-child(8){
+    		margin-top:1rem ;
+    	}
+    	#outlogin{
+    		width: 90%;
+			height: 3.8rem;
+			margin-left: 5%;
+			margin-top: 2.2rem;
+			background: rgb(202,176,117);
+			line-height: 1rem;
+			font-size: 1.4rem;
+			height: 3.8rem;
+			color:#FFFFFF;
+			border: none;
+    	}

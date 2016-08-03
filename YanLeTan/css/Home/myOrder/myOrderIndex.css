@@ -1,0 +1,42 @@
+
+		.mui-segmented-control.mui-scroll-wrapper .mui-scroll{
+			width: 100%;
+		}
+		.mui-segmented-control.mui-scroll-wrapper .mui-control-item{
+			width: 25%!important;
+			padding: 0;
+		}
+		.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+			color:red;
+		}
+		.mui-segmented-control.mui-segmented-control-inverted~.mui-slider-progress-bar{
+			background: red;
+		}
+		.orderLi{
+			height: 8.9rem;
+			position: relative;
+		}
+		.orderLi>a>img{
+			width: 5rem!important;
+			position: absolute;
+			left: 1rem;
+			top:2rem;
+			height: 5rem;
+		}
+		.orderLi>a>p{
+			text-align: left;
+			margin-left: 7rem;
+		}
+		.orderLi>a>p:nth-child(4){
+			text-align: right;
+			margin-right: 2rem;
+		}
+    	.orderLi>a>p:nth-child(3){
+			color: black;
+		}
+    	.username{
+    		margin-right: 2rem;
+    	}
+    	.orderLi>.personmessage{
+    		display: inline-block;
+    	}

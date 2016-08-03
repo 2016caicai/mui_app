@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link href="../../../css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="../../../css/common.css"/>
+    <link rel="stylesheet" href="../../../css/mui.picker.css" />
+	<link rel="stylesheet" href="../../../css/mui.dtpicker.css" />
+    <link rel="stylesheet" type="text/css" href="../../../css/Home/myWorkTime/myWorkTimeAdd.css"/>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	    <h1 class="mui-title">增加排班</h1>
+	</header>
+	<div class="mui-content">
+		<ul class="WorkTimeUl ">
+			<!--日期-->
+			<li class="WorkTimelI">
+				<a class="mui-navigate-right WorkTimeA" >					
+						<p class="li_p">日期<span id="DateSetting" class="span_right" data-options='{"type":"date","beginYear":2016,"endYear":2116}'>请选择</span></p>
+					</a>
+			</li>
+			<li class="WorkTimelI " >
+				<a id="AddDate" class="mui-btn WorkTimelIAdd " data-options='{"type":"time"}'>添加</a>
+			</li>
+			<!--时间-->
+			<li class="WorkTimelI">
+				<a class=" WorkTimeA" >					
+						<p class="li_p TimeBoxparent">时间<span class="timeSettingBox"></span></p>											
+					</a>
+			</li>
+			<!--金额-->
+			<li class="WorkTimelI">
+				<a class=" WorkTimeA" >					
+						<p class="li_p">金额<span class="span_right">￥<input placeholder="请设置" id="setPrice" type="text" /></span></p>
+					</a>
+			</li>
+			<!--<li class="WorkTimelI" >
+				<a id="AddAddress" class="mui-btn WorkTimelIAdd">添加</a>
+			</li>-->
+			<!--地点-->
+			<li class="mui-table-view-cell WorkTimelI spanWork" >
+				<a class="WorkTimeA">
+					<div class=" mui-slider-handle">
+						<p class="li_p">地点<span  class="span_right addAddress selectAddress">请在个人资料设置</span></p>
+					</div>
+						<!--<div class="mui-slider-right">
+                            <a class="mui-btn mui-btn-red">删除</a>
+                       </div>-->
+                </a>
+			</li>
+		</ul>
+		<div class="Surebtn"><button id="Sure" class="mui-btn mui-btn-block">确认添加</button></div>
+	</div>
+	<script src="../../../js/common/mui.min.js"></script>
+	<script src="../../../js/common/common.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="../../../js/common/mui.picker.js"></script>
+	<script type="text/javascript" src="../../../js/common/mui.dtpicker.js"></script>
+	<script src="../../../js/Home/myWorkTime/myWorkTimeAdd.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

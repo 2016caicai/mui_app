@@ -1,0 +1,28 @@
+#login{
+    		line-height: 4.5rem;
+    		font-size: 1.4rem;
+    	}
+    	.checkbox{
+    		margin-top: 2.2rem;
+    	}
+    	.checkbox>.checkbox_img>img{
+    		width: 1.3rem;
+    		height: 1.3rem;
+    		vertical-align: middle;
+    	}
+    	.checkbox>.checkbox_text{
+    		color:darkgray;
+    		margin-left: 1.4rem;
+    		vertical-align: middle;
+    	}
+    	.mui-input-group .mui-input-row:nth-last-child(1):after{
+	  		background-color: rgba(244,244,244,.5);
+	  	}
+	  	#reset-form{
+	  		top: 20px;
+	  	}
+	  	.checkbox_img{
+	  		display:inline-block;
+	  		width: 3rem;
+	  		height: 3rem;
+	  	}

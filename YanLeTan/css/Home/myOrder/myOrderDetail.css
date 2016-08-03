@@ -1,0 +1,47 @@
+.box{
+    		height: 31.5rem;
+    		background: #FFFFFF;
+    	}
+    	.box>li:nth-child(1){
+    		height: 6.2rem;
+    	}
+    	.box>li:nth-child(1)>p{
+    		line-height: 6.2rem;
+    	}
+    	.userImg{
+    		position: relative;
+    	}
+    	.userImg>img{
+    		position: absolute;
+    		height: 4.4rem;
+    		width: 4.4rem;
+    		left: 7.8rem;
+    		top:1rem;
+    	}
+    	.box>li>p{
+    		
+    		text-align: left;
+    		padding-left: 1rem;
+    	}
+    	#sure{
+    		width: 90%;
+			height: 3.8rem;
+			margin-left: 5%;
+			margin-top: 2.2rem;
+			background: rgb(202,176,117);
+			line-height: 1rem;
+			font-size: 1.4rem;
+			height: 3.8rem;
+			color:#FFFFFF;
+			border: none;
+    	}
+    	.right{
+    		margin-left: 2rem;
+    		color:#222;
+    	}
+    	.softPrice>span{
+    		color:red;
+    	}
+    	.personStatus>span{
+    		color:red;
+    	}

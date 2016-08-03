@@ -1,0 +1,227 @@
+.userHeader{
+    		height: 10rem;
+    		background: #FFFFFF;
+    		position:relative;
+    	}
+    	.userPurse{
+    		height: 4.9rem;
+    		background: #FFFFFF;
+    		margin-top: 0.05rem;
+    	}
+    	.userWorkRecord{
+    		height: 7.2rem;
+    		margin-top: 0.1rem;
+    		background: #FFFFFF;
+    		position: relative;
+    	}
+    	.message{
+    		height: 10.8rem;
+    		background: #FFFFFF;
+    		margin-top:0.8rem ;
+    	}
+    	
+    	.userHeader>.userimg,.sharebox .shareheader>.userimg{
+    		position: absolute;
+    		border-radius: 50%;
+    		width: 6.4rem;
+    		height: 6.4rem;
+    		top: 1.7rem;
+    		left: 1.4rem;
+    	}
+    	.userHeader>p,.sharebox .shareheader>p{
+    		position: absolute;
+    		left: 9.5rem ;
+    		color:black;   		
+    	}
+    	.userHeader .username,.sharebox .shareheader .username{
+    		top:1rem;
+    		font-weight: 700;
+    		font-size: 1.8rem;
+    	}
+    	.userHeader .userlevel{
+    		height: 1.4rem;
+    		top: 3.3rem;
+    		color:rgb(254,197,23);
+    		
+    	}
+    	.sharebox .shareheader .username{
+    		top:2rem;
+    	}
+    	.userHeader .username>span,.sharebox .shareheader .username>span{
+    		font-size: 1.4rem;
+    		margin-left: 0.5rem;
+    		color: gray;
+    	}
+    	.userHeader .userlevel>img{
+    		width: 1.4rem;
+    		height: 1.4rem;
+    		margin-left: 0.3rem;
+    	}
+    	.userHeader .userlevel>span{
+    		margin-left: 0.5rem;
+    	}
+    	.userHeader .userhospital{
+    		top:5.1rem;
+    	}
+    	.sharebox .shareheader .userhospital{
+    		top:4.6rem;
+    	}
+    	.userHeader .userpersonnal,.sharebox  .userpersonnal{
+    		top:7.2rem;
+    		color: gray;
+    		font-size: 1.2rem;
+    		word-break:break-word;
+    		width: 60%;
+    		text-align: left;
+    		overflow: hidden;
+    		text-overflow: ellipsis;
+    		white-space: nowrap;
+    	}
+    	.userHeader .userpersonnal>span,.sharebox .shareheader .userpersonnal>span{
+    		margin-left: 0.5rem;
+    		background: lightgray;
+    		padding: 0 0.3rem;
+    		
+    	}
+    	.sharebox .shareheader .userpersonnal>span{
+    		font-size: 1.2rem;
+    	}
+    	.userHeader #share{
+    		display: block;
+    		width: 4.5rem;
+    		height: 4.5rem;
+    		position: absolute;
+    		top:2.8rem;
+    		right: 3.3rem;
+    	}
+    	.userPurse>ul>li{
+    		float: left;
+    		width: 33.3%;
+    		height: 4.7rem;
+    	}
+    	.userPurse>ul>li p{   		
+    		margin: 0;   		
+    	}  	
+    	.userPurse>ul>li p:nth-child(1){
+    		margin-bottom: -0.5rem;
+    		margin-top: 0.5rem;
+    	}
+    	.userPurse>ul>li>.yue{
+    		color: red;   		
+    	}
+    	.shuxian_left{
+    		float: left;
+    		height: 2.7rem;
+    		margin-top: 1rem;
+    		border-left:1px solid rgb(202,176,117);
+    	}
+    	.userWorkRecord>a{
+    		width: 50%;
+    		display: block;
+    		position: absolute;
+    		height: 6.9rem;
+    	}
+		.work_header>img{
+			width: 1.5rem;			
+			height: 2rem;			
+			margin-right: 0.5rem;
+			vertical-align: middle;
+		}
+		#myOrder{
+			right: 0;
+		}
+		.userWorkRecord>a>.work_header{
+			padding-top: 1.5rem;
+			margin: 0;
+			color: #222;
+			font-size: 1.6rem;
+		}
+		.shuxian_worke{
+			position: absolute;
+			border-left: 1px solid rgb(202,176,117);
+			height: 4rem;
+			top:1.5rem;
+		}
+		.message img{
+			width: 100%;
+			height: 100%;
+		}
+		.dateOrder{
+			padding-bottom: 2.2rem;
+		}
+		.dateOrder>p{
+    		height: 2rem;
+    		text-align: left;
+			margin-left: 1.1rem;
+			color: #222;
+    		line-height: 2.5rem;
+    	}
+    	.dateOrder>ul{
+    		height: 10.8rem;
+    		background: #FFFFFF;
+    		padding-top: 0.7rem;
+    	
+    	}
+    	.dateOrder>ul>li{
+    		
+    		text-align: left;
+    		line-height: 1.6rem;
+    		height: 1.8rem;
+    		padding-left:1.1rem;
+    		margin: 0.5rem 0;
+    	}
+    	.orderPerson{
+    		margin-top: 0.5rem;
+    	}
+    	.orderPerson .value{
+    		color:#222;
+    	}
+    	.orderPerson .personStatus{
+    		color: red;
+    	}
+    	#popoverimg{
+    		position: fixed;
+    		width: 80%;
+    		top: 10rem;
+    		height: 34.6rem;
+    		margin-left: 10%;
+    	}
+    	.sharebox{
+    		height: 34.6rem;
+    		background: #FFFFFF;
+    		border-radius:0.5rem;
+    		overflow: hidden;
+    	}
+    	.sharebox .shareheader{
+    		height: 9.3rem;
+    		position: relative;
+    	}
+    	.sharebox .shareCode{
+    		height: 14rem;
+    		border-bottom: 1px solid rgba(202,176,114,.5);
+    	}
+    	.sharebox .shareCode>img{
+    		width: 11.2rem;
+    		height: 11.2rem;
+    		margin-top: 1.6rem;
+    	}
+    	.sharebox .shareSelect>p{
+    		text-align: left;
+    		padding-left: 2rem;
+    		padding-top: 1rem;
+    		color:#222;
+    	}
+    	.sharebox .shareSelect>div>a{
+    		width:25%;
+    		float:left;
+    		font-size: 1.4rem;
+    	}
+    	.sharebox .shareSelect>div>a>img{
+    		width: 3.6rem;
+    		height: 3.6rem; 
+    		margin-bottom:-0.5rem ;		
+    	}
+    	.userimgval{
+    		width: 100%;
+    		height: 100%;
+    	}

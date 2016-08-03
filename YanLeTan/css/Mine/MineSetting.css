@@ -1,0 +1,27 @@
+.mui-table-view-cell{
+    		background: rgba(255,255,255,.5);
+    		margin-top: 1.2rem;
+    	}
+    	.li_p{
+    		text-align: left;
+    		vertical-align: middle;
+    		color: #222;
+    	}
+    	#outlogin{
+    		width: 90%;
+			height: 3.8rem;
+			margin-left: 5%;
+			margin-top: 2.2rem;
+			background: rgb(202,176,117);
+			line-height: 1rem;
+			font-size: 1.4rem;
+			height: 3.8rem;
+			color:#FFFFFF;
+			border: none;
+    	}
+    	.huancun_num{
+    		color: gray;
+    		font-weight: 100;
+    		position: absolute;
+    		right:2rem;
+    	}

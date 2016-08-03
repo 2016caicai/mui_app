@@ -1,0 +1,61 @@
+.yue_Detial{
+	height: 7rem;
+	background: #FFFFFF;
+	position: relative;
+}
+.yue_Detial>a{
+	width: 33.3%;
+	display:block;
+	float: left;
+	height:7rem;
+	padding-top: 2rem;
+}
+.yue_Detial>a>p{
+	margin: 0;
+	color:black;
+}
+.yue_Detial>a>p .mui-icon-arrowdown{
+	font-size: 1.2rem;
+	color: black;
+}
+.headerTwo>p:nth-child(1){
+	color:red;
+}
+.headerThree>p:nth-child(2),.headerTwo>p:nth-child(2){
+	color:gray;
+	font-size: 1.2rem;
+}
+.shuxian:nth-child(1){
+    	border-left: 1px solid rgb(202,176,114);
+    	height: 4rem;
+    	position: absolute;
+    	top: 1.5rem;
+   		left: 33%;
+    }
+.shuxian:nth-child(2){
+    	border-left: 1px solid rgb(202,176,114);
+    	height: 4rem;
+    	position: absolute;
+    	top: 1.5rem;
+    	right: 33%;
+    }
+    .yue_ul{
+    	margin-top: 1.5rem;
+    }
+    .yue_ul>.yue_li{
+    	background: rgba(254,254,254,.8);
+    	height: 4rem;
+    	margin-top: 0.2rem;
+    	line-height: 4rem;
+    	text-align: right;
+    	padding-right: 1rem;
+    }
+    .yue_ul>.yue_li>p{
+    	color:red;
+    }
+    .yue_ul>.yue_li>p>span:nth-child(1){
+    	color:gray;
+    }
+#SetMounth.mui-popover{
+	width:10rem;
+}

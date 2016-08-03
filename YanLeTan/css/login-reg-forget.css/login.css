@@ -1,0 +1,23 @@
+#reg{
+    		line-height: 4.5rem;
+    		font-size: 1.4rem;
+    	}
+    	
+    	.logo{
+    		height: 12.1rem;
+    		background: url;
+    		}
+    	.logo>img{
+    		height: 6.3rem;
+    		width: 6.3rem;
+    		margin-top: 2.9rem;
+    		}
+	  	.mui-input-group .mui-input-row:nth-child(2):after{
+	  		background-color: rgba(244,244,244,.5);
+	  	}
+		.forget>a{
+			color: darkgray;
+			position: absolute;
+			margin-top: 1rem;
+			right: 2rem;
+		}

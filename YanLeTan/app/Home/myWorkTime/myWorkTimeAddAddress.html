@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link href="../../../css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="../../../css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../../../css/Home/myWorkTime/myWorkAddAddress.css"/>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+	    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+	    <h1 class="mui-title">增加地点</h1>
+	</header>
+	<div class="mui-content">
+		<div class="newAddressHeader">
+			<div id="Cty"><p id="ctyName">广州</p><span class="mui-icon mui-icon-arrowdown roteCty"></span></div>
+			<div class="mui-input-row mui-search" id="search"><input type="search" class=" mui-input-clear" placeholder="疾病，医生姓名，医院"></div>
+		</div>
+		<div class="selectCty">
+			<a class="selectCtyItem">北京</a><a class="selectCtyItem selectCtyactive">广州</a><a class="selectCtyItem">天津</a><a class="selectCtyItem">深圳</a><a class="selectCtyItem">上海</a>
+		</div>
+		<div class="hospitalDiv">
+			<ul class="hospitalUl">
+				<li class="hospitalLi"><p class="hospitalName">广东省口腔医院（江南大道南）</p><p class="hospitalAddress">广东省-广州市-海珠区-江南大道南366号（昌岗）</p></li>
+				<li class="hospitalLi"><p class="hospitalName">广东省口腔医院（江南大道南）</p><p class="hospitalAddress">广东省-广州市-海珠区-江南大道南366号（昌岗）</p></li>
+				<li class="hospitalLi"><p class="hospitalName">广东省口腔医院（江南大道南）</p><p class="hospitalAddress">广东省-广州市-海珠区-江南大道南366号（昌岗）</p></li>
+			</ul>
+		</div>
+	</div>
+	<script src="../../../js/common/mui.min.js"></script>
+	<script src="../../../js/common/common.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" charset="UTF-8">
+      	mui.init();
+      	mui.ready(function(){
+      		var roteCty=document.getElementsByClassName("roteCty")[0];
+      		var selectCty=document.getElementsByClassName("selectCty")[0];
+      		var selectCtyItem=document.getElementsByClassName("selectCtyItem");
+      		var CtyStatus="close";//城市按钮状态
+      		//城市按钮
+      		mui(".newAddressHeader").on("tap","#Cty",function(){
+      			if(CtyStatus=="close"){
+      				roteCty.classList.add("open");
+      				roteCty.classList.remove("close");
+      				selectCty.classList.add("sidlerD");
+      				selectCty.classList.remove("sidlerU");
+      				CtyStatus="open";
+      			}else{
+      				roteCty.classList.add("close");
+      				roteCty.classList.remove("open");
+      				selectCty.classList.add("sidlerU");
+      				selectCty.classList.remove("sidlerD");
+      				CtyStatus="close";
+      			}
+      		})
+      		mui(".selectCty").on("tap",".selectCtyItem",function(){
+      			if(this.className.length=="29"){
+      				roteCty.classList.add("close");
+      				roteCty.classList.remove("open");
+      				selectCty.classList.add("sidlerU");
+      				selectCty.classList.remove("sidlerD");
+      				CtyStatus="close";
+      			}else{
+      				for(var i=0;i<selectCtyItem.length;i++){
+      					selectCtyItem[i].classList.remove("selectCtyactive");
+      				}
+      				this.classList.add("selectCtyactive");
+      				document.getElementById("ctyName").innerHTML=this.innerHTML;
+      				roteCty.classList.add("close");
+      				roteCty.classList.remove("open");
+      				selectCty.classList.add("sidlerU");
+      				selectCty.classList.remove("sidlerD");
+      				CtyStatus="close";
+      			}
+      		})
+      	})
+    </script>
+</body>
+</html>

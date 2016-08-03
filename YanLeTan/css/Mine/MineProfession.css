@@ -1,0 +1,66 @@
+.mui-content>.header{
+    		height: 20rem;
+    		background: rgba(254,254,254,.5);
+    		position: relative;
+    		padding-top: 4rem;
+    	}
+    	.mui-content>.header>#add{
+    		height: 9.9rem;
+    		width: 16.8rem;
+    		background: rgb(233,231,236);
+    		margin:0 auto;
+    		border:none;
+    		padding: 0;
+    	}
+    	.mui-content>.header>#add>img{
+    		height: 100%;
+    		width: 100%;
+    		opacity: .9;
+    	}
+    	.header>h2,.header>p{
+    		margin:0 auto;
+    		
+    	}
+    	.header>h2{
+    		margin-top: 2rem;
+    	}
+    	.example{
+    		width: 100%;
+    		height: 19.4rem;
+    	}
+    	.example>img{
+    		height: 19.4rem;
+    		width: 100%;
+    	}
+    	#send{
+			width: 90%;
+			height: 3.8rem;
+			margin-left: 5%;
+			margin-top: 6rem;
+			background: rgb(202,176,117);
+			line-height: 1rem;
+			font-size: 1.4rem;
+			height: 3.8rem;
+			color:#FFFFFF;
+			border: none;
+		}
+		#showEdit{
+			position: absolute;
+			top: 0;
+			height: 100%;
+			width: 100%;
+			background:rgba(12,12,12,.5);
+			z-index: 999;
+			display: none;
+		}
+		.mui-nav-bg{
+			background: none;
+		}
+		#report{
+			height: 100%;
+			margin: 0 auto;
+		}
+		.mui-nav-bg>.mui-icon-closeempty,.mui-nav-bg>.mui-icon-checkmarkempty{
+			color: #FFFFFF;
+			font-size: 2rem!important;
+		}
